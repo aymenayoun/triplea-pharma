@@ -1,0 +1,64 @@
+### IDE & Editor ###
+# Universal
+.DS_Store
+*.swp
+*.bak
+*.tmp
+*.orig
+*~
+
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse/STS
+.project
+.classpath
+.settings/
+.springBeans
+
+### Build Artifacts ###
+# General
+bin/
+out/
+build/
+dist/
+*.jar
+*.war
+*.ear
+
+# Dependency directories
+node_modules/
+
+### Logs ###
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Environment ###
+.env
+.env.local
+.env.*.local
+
+### System ###
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+### Project Specific ###
+# Frontend compiled files
+frontend/dist/
+frontend/.angular/cache
+
+# Backend specific (redundant with backend/.gitignore but safe to include)
+backend/target/
+backend/.mvn/

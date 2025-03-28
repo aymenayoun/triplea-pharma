@@ -1,0 +1,81 @@
+### Build ###
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+
+### Configuration ###
+# Exclude all application properties/yml except example files
+application*.properties
+!application.properties.example
+application*.yml
+!application.yml.example
+config/application*.properties
+config/application*.yml
+
+### IDE ###
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+### Maven ###
+.mvn/
+mvnw
+mvnw.cmd
+dependency-reduced-pom.xml
+
+### Logs ###
+logs/
+*.log
+*.log.*
+
+### Database ###
+*.db
+*.h2.db
+*.sql
+*.liquibase
+
+### Environment ###
+.env
+.env.local
+.env.*.local
+
+### Documentation ###
+HELP.md
+
+### Other ###
+*.swp
+*.bak
+*.tmp
+*.orig
+*~
+.DS_Store
